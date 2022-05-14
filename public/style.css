@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam-Bold.ttf");
+  font-weight: bold;
+}
+
+thead tr:first-child {
+  background: #BDC3C7 !important;
+  color: black;
+}
+
+* {
+  margin: 0;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+
+th {
+  padding: 0.5rem 0;
+}
+
+th:last-child {
+  border-radius: 1rem 0 0 0;
+}
+
+th:first-child {
+  border-radius: 0 1rem 0 0;
+}
+
+td {
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+tr:nth-child(odd){
+  background-color: #ECF0F1;
+}
+tr:nth-child(even){
+  background-color: white;
+}

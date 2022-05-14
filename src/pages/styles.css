@@ -1,0 +1,68 @@
+.homeRoot {
+    height: 80vh;
+}
+.headerText{
+    font-size: 1.5rem !important;
+    padding: 0.5rem;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.stockListContainer{
+    border-radius: 6%;
+    overflow-y: auto;
+    height:80vh;
+    background-color: white;
+}
+.stockListDetails{
+    overflow-y: auto;
+    height:80vh;
+    background-color:white;
+    border-radius : 1em;
+    padding : 20px
+}
+.AppContainer{
+    overflow:hidden;
+    height:100vh;
+    box-sizing:border-box;
+    margin-left:10px;
+    margin-right:10px
+}
+
+.takeStocksListContainer{
+    padding: 25px;
+}
+th{
+    flex : 1
+}
+
+.deepChartRoot{
+    margin-top:20px;
+    padding: 10px
+}
+.marginLeft10px{
+    margin-left: 10px;
+}
+.marginLeftAuto{
+    margin-left: auto;
+}
+
+
+.lastPricePercentHeader{
+    font-size : 1rem;
+    line-height:1.3rem;
+    align-self : center;
+    margin-left : 5px
+
+}
+.stockVal{
+    background-color : #ECF0F1;
+    padding : 10px
+}
+
+.footerStockList{
+    backgroundColor : #BDC3C7;
+    margin-top :80px;
+    padding :15px;
+    border-radius: 0 0 1rem 1rem;
+}
